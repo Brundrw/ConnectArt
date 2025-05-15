@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ArteWeb - Soluções criativas em design e programação">
+    <title>ArteWeb - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://via.placeholder.com/32" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="index.html" aria-label="Voltar para a Homepage">
+                    <img src="imagens/logo preto.png" alt="ArteWeb Logo" class="logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="midias.html">Mídias</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Abrir menu">☰</div>
+            <div class="rainbow-star" aria-label="Ir para Mídias">
+                <a href="midias.html">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="url(#rainbowGradient)"/>
+                        <defs>
+                            <linearGradient id="rainbowGradient" x1="0" y1="0" x2="100%" y2="100%">
+                                <stop offset="20%" style="stop-color:#FF0000"/>
+                                <stop offset="16.67%" style="stop-color:#FF9900"/>
+                                <stop offset="33.33%" style="stop-color:#FFFF00"/>
+                                <stop offset="50%" style="stop-color:#00FF00"/>
+                                <stop offset="66.67%" style="stop-color:#2a7fff"/>
+                                <stop offset="83.33%" style="stop-color:#4B0082"/>
+                                <stop offset="100%" style="stop-color:#9400D3"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section-home fade-in">
+            <canvas id="particles" class="section-particles"></canvas>
+            <div class="home-content">
+                <h1>ArteWeb</h1>
+                <p>Soluções criativas em design e programação para sua empresa.</p>
+                <a href="midias.html" class="btn">Conheça Nossos Projetos</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 ArteWeb. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

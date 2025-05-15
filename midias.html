@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ArteWeb - Veja nossos projetos de design e programação">
+    <title>ArteWeb - Mídias</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://via.placeholder.com/32" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="index.html" aria-label="Voltar para a Homepage">
+                    <img src="imagens/logo preto.png" alt="ArteWeb Logo" class="logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="midias.html" class="active">Mídias</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Abrir menu">☰</div>
+            <div class="rainbow-star" aria-label="Ir para Mídias">
+                <a href="midias.html">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="url(#rainbowGradient)"/>
+                        <defs>
+                            <linearGradient id="rainbowGradient" x1="0" y1="0" x2="100%" y2="100%">
+                                <stop offset="20%" style="stop-color:#FF0000"/>
+                                <stop offset="16.67%" style="stop-color:#FF9900"/>
+                                <stop offset="33.33%" style="stop-color:#FFFF00"/>
+                                <stop offset="50%" style="stop-color:#00FF00"/>
+                                <stop offset="66.67%" style="stop-color:#2a7fff"/>
+                                <stop offset="83.33%" style="stop-color:#4B0082"/>
+                                <stop offset="100%" style="stop-color:#9400D3"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section-midias fade-in">
+            <canvas class="section-particles"></canvas>
+            <h2>Nossos Projetos</h2>
+            <div class="carousel">
+                <div class="carousel-item fade-in">
+                    <img src="imagens/artsky.png" alt="foto do site de arte">
+                    <a href="https://artskyy.netlify.app/" target="_blank" style="text-decoration: none;" class="fotosite"><h3 >Veja nosso projeto!</h3></a>
+                    <p>Site para reconhecimento de artistas.</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/jaosite.png" alt="foto do site da discografia do Jão">
+                    <a href="https://artskyy.netlify.app/" target="_blank" style="text-decoration: none;" class="fotosite"><h3>Veja nosso projeto!</h3></a>
+                    <p>Discografia de um artista.</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/bibliotecajoao.png" alt="foto do site de uma biblioteca">
+                    <a href="https://bibliotecatop.netlify.app/" target="_blank" style="text-decoration: none;" class="fotosite"><h3>Veja nosso projeto!</h3></a>
+                    <p>Site de uma biblioteca.</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/robloxultimate.png" alt="foto do site de gerador de senhas roblox">
+                    <a href="https://geradordesenhas00.netlify.app/" target="_blank" style="text-decoration: none;" class="fotosite"><h3>Veja nosso projeto!</h3></a>
+                    <p>Site com senhas criptografadas e seguras</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/breakingbad.png" alt="foto do site de um calendário tema breaking bad">
+                    <a href="https://agendaonline5.netlify.app/" target="_blank" style="text-decoration: none;" class="fotosite"><h3>Veja nosso projeto!</h3></a>
+                    <p>Calendário temático</p>
+                </div>
+                <button class="carousel-btn prev" aria-label="Projeto anterior">◄</button>
+                <button class="carousel-btn next" aria-label="Próximo projeto">►</button>
+            </div>
+        
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 ArteWeb. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
