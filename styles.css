@@ -70,7 +70,7 @@ h3 {
 
 .logo {
     border-radius: 50%;
-    height: 65px;
+    height: 75px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
