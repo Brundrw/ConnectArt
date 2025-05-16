@@ -52,7 +52,7 @@ h3 {
 
 .navbar {
     background: linear-gradient(180deg, var(--primary), rgba(37, 38, 51, 0.9));
-    padding: 35px 20px;
+    padding: 20px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
