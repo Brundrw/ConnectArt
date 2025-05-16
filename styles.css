@@ -210,6 +210,9 @@ h3 {
     background: radial-gradient(circle at center, rgba(100, 80, 153, 0.15), var(--primary));
     position: relative;
     overflow: hidden;
+}
+
+.section-sobre {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -636,16 +639,18 @@ footer::before {
         font-size: 20px;
     }
 
-    .section-midias {
+    .section-midias, .section-contatos {
         padding: 60px 10px;
-    }
-
-    .section-contatos {
-        padding: 60px 10px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
 
     .section-sobre {
         padding: 60px 10px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
 
     .section-midias .project-link:hover, .veja-projeto:hover {
@@ -725,16 +730,18 @@ footer::before {
         width: 30px;
     }
 
-    .section-midias {
+    .section-midias, .section-contatos {
         padding: 50px 5px;
-    }
-
-    .section-contatos {
-        padding: 50px 5px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
 
     .section-sobre {
         padding: 50px 5px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
 
     footer {
